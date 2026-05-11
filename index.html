@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Handling Demo</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>JavaScript Event Handling Demo</h1>
+
+    <!-- Click Event -->
+    <section>
+      <h2>Click Event</h2>
+      <button id="clickBtn">Click Me</button>
+    </section>
+
+    <!-- Input & Change Events -->
+    <section>
+      <h2>Input & Change Events</h2>
+
+      <input type="text" id="nameInput" placeholder="Type your name">
+
+      <select id="colorSelect">
+        <option value="">Select Color</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+      </select>
+    </section>
+
+    <!-- Form Submit Event -->
+    <section>
+      <h2>Form Submit Event</h2>
+
+      <form id="demoForm">
+        <input type="email" id="emailInput" placeholder="Enter Email" required>
+        <button type="submit">Submit Form</button>
+      </form>
+    </section>
+
+    <!-- Keyup Event -->
+    <section>
+      <h2>Keyboard Event</h2>
+
+      <input type="text" id="keyInput" placeholder="Press any key">
+    </section>
+
+    <!-- Mouse Events -->
+    <section>
+      <h2>Mouse Events</h2>
+
+      <div id="hoverBox">
+        Hover your mouse here
+      </div>
+    </section>
+
+    <!-- Output Area -->
+    <section>
+      <h2>Output</h2>
+
+      <div id="output">
+        Event results will appear here...
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
